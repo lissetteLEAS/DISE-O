@@ -1,7 +1,7 @@
-// Antonio GarcÌa Castillo
-// Ingeniero TÈcnico en Inform·tica de GestiÛn
-// Proyecto : Herramientas web para la enseÒanza
-//				  de protocolos de comunicaciÛn
+// Antonio Garc√≠a Castillo
+// Ingeniero T√©cnico en Inform√°tica de Gesti√≥n
+// Proyecto : Herramientas web para la ense√±anza
+//				  de protocolos de comunicaci√≥n
 
 
 
@@ -40,12 +40,12 @@ public class Bellman extends JApplet
 	
 }	
 
-
+//Prueba
 //clase encargada de suministrar informacion al usuario
 // sobre las diferentes teclas de la aplicacion
 // ademas de visualizar los la tabla de ruteo del nodo
-// elejido, asi como los paquetes de informaciÛn que este
-// recibe durante la ejecuciÛn del algoritmo.
+// elejido, asi como los paquetes de informaci√≥n que este
+// recibe durante la ejecuci√≥n del algoritmo.
 
 class Informacion extends JComponent{ 
   Border  border = BorderFactory.createCompoundBorder(
@@ -89,7 +89,7 @@ class Informacion extends JComponent{
 
 
 
-  //metodo para que el componente utilice un tamaÒo predeterminado
+  //metodo para que el componente utilice un tama√±o predeterminado
   
   public Dimension getPreferredSize()
   { return new Dimension(330,Short.MAX_VALUE);
@@ -140,9 +140,9 @@ class Informacion extends JComponent{
   }
 
 
-// dibuja la cabecera donde se colocar· la 
+// dibuja la cabecera donde se colocar√° la 
 // tabla de encaminamiento del nodo elegido, 
-// el parametro "elementos" indica el tamaÒo de la 
+// el parametro "elementos" indica el tama√±o de la 
 // tabla de encaminamiento, (tantos como nodos haya en la red)
   
   public void cabecera(int elementos,int nodo)
@@ -404,7 +404,7 @@ class Controles extends JPanel
     Bntnuevo.setToolTipText("Crear nueva red");
     Bntpesos.setToolTipText("Crear nuevos pesos");
     Bntvalidar.setToolTipText("Chequear la red");
-    Bntnodo.setToolTipText("SelecciÛn del nodo");
+    Bntnodo.setToolTipText("Selecci√≥n del nodo");
     Bntrun.setToolTipText("Ejecutar el algoritmo");
     Bntcancel.setToolTipText("Cancelar pasos");
 
@@ -506,7 +506,7 @@ class Controles extends JPanel
     
     
    
-   // aÒadir al panel los botones
+   // a√±adir al panel los botones
     barra.add(Bntnuevo, null);
     barra.add(Bntpesos,null);
    
